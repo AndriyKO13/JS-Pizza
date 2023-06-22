@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
+
+    <title>Lab4</title>
+</head>
+
+<body>
+    <header style="height: 0;">
+        <section class="navbar">
+            <section class="upper-badge">
+                <div class="string-ending"></div>
+                <a class="pizza-logo">
+                    <p class="title-pizza">
+                        Pizza
+                    </p>
+                    <p class="title">
+                        KMA
+                    </p>
+                </a>
+            </section>
+                <section class="information">
+                    <section class="contacts">
+                        <span class="phone">(044) 222 5 222</span>
+                        <span class="schedule">24 години/7 днів на тиждень</span>
+                        <span class="orders">Безкоштовна доставка піци</span>
+                        <button class="sign-in-button">Ввійти</button>
+                    </section>
+                    <section class="row">
+                        <a class="pizza-label">Піца</a>
+                        <button class="sign-in-button-down">Ввійти</button>
+                    </section>
+                </section>
+        </section>
+    </header>
+
+    <main>
+
+    <section class="left-block">
+
+    <section class="pizza-head">
+        <section style="justify-self: center; margin-bottom: 10px;">
+        <div class="orange-font">Усі піцци</div>
+        <div class="quantity">8</div>
+        </section>
+        <section style="justify-self: center;">
+          <button class="buy-button-select" onclick="selectButton(this)">Усі</button>
+          <button class="buy-button-deselect" onclick="selectButton(this)">М'ясні</button>
+          <button class="buy-button-deselect" onclick="selectButton(this)">З ананасами</button>
+          <button class="buy-button-deselect" onclick="selectButton(this)">З грибами</button>
+          <button class="buy-button-deselect" onclick="selectButton(this)">З морепродуктами</button>
+          <button class="buy-button-deselect" onclick="selectButton(this)">Вега</button>
+        </section>
+    </section>
+    <section class="pizzas-wrapper">
+        
+    <!-- Repeat the pizza-container div for each pizza -->
+    
+    </section>
+    
+        <div class="footer-text">
+            <div class="footer-grey-font">Pizza.22 - практичний проект в межах курсу JavaScript в Києво-Могилянській Академії</div>
+            <div class="footer-grey-font">Доставка піци не здійснюється</div>
+            </section>
+        </div>
+    </section>
+
+    <section class="sidebar">
+
+        <section class="container">
+            <div>
+              <span class="bold-text">Замовлення</span>
+              <span class="circle">0</span>
+            </div>
+            <button class="small-text">Очистити замовлення</button>
+        </section>
+          
+
+        
+
+            <section class="block-container">
+              <div class="block-header">
+                <span class="header-left">Сума замовлення:</span>
+                <span class="header-right">0 грн.</span>
+              </div>
+              <button class="order-button">Замовити</button>
+            </section>
+          
+
+    </section>
+
+    </main>
+
+    
+      
+    <footer>
+        <section class="discount-title">
+            <div class="title-text-d">
+              <p class="title-pizza-d">Цього</p>
+              <p class="title-pizza-d">тижня</p>
+              <p class="title-pizza-d">на все</p>
+            </div>
+            <div class="line-d"></div>
+            <p class="discount-d">-20%</p>
+            <div class="discount-ending"></div>
+        </section>
+          
+    </footer>
+
+   
+</body>
+</html>
